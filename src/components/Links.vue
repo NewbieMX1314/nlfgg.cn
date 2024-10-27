@@ -48,7 +48,7 @@ import { mainStore } from "@/store";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Pagination, Mousewheel } from "swiper";
 import siteLinks from "@/assets/siteLinks.json";
-
+import "swiper/swiper-bundle.css"; // 对于Swiper 6.x版本
 const store = mainStore();
 
 // 计算网站链接
